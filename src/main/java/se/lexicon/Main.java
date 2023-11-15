@@ -3,26 +3,27 @@ package se.lexicon;
 import java.util.*;
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
-
-        //int restart;
+        Double number;
         System.out.println("Calculator");
         int num1;
         int num2;
-        //double  =0;
-        //boolean loop = true;
+        int scanner;
+        boolean loop = true;
         String operation;
 
 
         Scanner input = new Scanner(System.in);
 
 
-                //if (test == 0)
+        //if (test == 0)
 
 
 
-            //while(restart);
+
+    //} while (willContinue);
 
 
             System.out.println("please enter the first number");
@@ -51,31 +52,75 @@ public class Main {
                 System.out.println("your answer is " + (num1 * num2));
             } else {
                 System.out.println("Wrong selection");
-            }{
-        while (true){
-            int test = input.nextInt();
-            int test2 = input.nextInt();
+            }
+            //while (true){
+          //  int test = input.nextInt();
+            //
+            // int test2 = input.nextInt();
+           boolean isTrue = true;
 
-            if (test == 5) continue;
-            {
+            while (isTrue) {
 
+                System.out.println("Start? Press 5");
+                System.out.println("Quit? Press 1");
 
-                //System.out.println("Press 5 to continue")
-                //
-                if (test == 0) break;{}
-
-
-                //System.out.println("Press 0 to quit");
-
-                //while(true) {
-
-                //int value;
-                //int op = -1;
-                //int op =-1;
-                //System.out.println("Press 0 to exit calculator");
-                //if  (op==-1) {
-                //break;
+                number = input.nextDouble();
+                if (number == 5) {
+                continue;
 
 
-                //if (input.equals(0)) break;
-            }}}}}
+                } else if (number == 1)
+
+                //isTrue = false;
+                    System.out.println("Goodbye");
+                    break;}
+
+
+
+
+
+            //sum += number;
+        }
+
+                //System.out.println("Goodbye");
+               // for (int i = 0; i < 10; i++) {
+                //if (i == 4) {
+                    //continue;
+
+
+
+
+            //if (exit  5) continue;
+
+
+
+                //System.out.println("Press 5 to continue");               //if (test == 0) break;{}
+
+                /**  do {
+                System.out.println("Continue? Press 5");
+
+            } while(number  == 5); input.reset();
+
+            do {
+         // add only positive numbers
+         sum += number;
+         System.out.println("Quit Calculator? Press -1");
+         number = input.nextInt();
+         } while(number >= 0);
+        //System.out.println("Sum = " + sum);
+        input.close();
+
+
+
+            //System.out.println("Press 0 to quit");
+
+            //while(true) {
+
+            //int value;
+            //int op = -1;
+            //int op =-1;
+            //System.out.println("Press 0 to exit calculator");
+            //if  (op==-1) {
+            //break;
+                 */
+                }
